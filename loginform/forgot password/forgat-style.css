@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+@font-face {
+  font-family: typolo; /* font name*/
+  src: url(font/typolio-regular.otf); /* url of the font */
+  src: url(font/typolio-regular.ttf); /* url of the font */
+}
+
+
+        /*--- body styles ---*/
+body{
+    /* font-family: typolo; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    
+    
+}
+
+    /*--- container of login form styles ---*/
+.login-container{
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border-radius: 15px;
+}
+  
+
+      /*--- login form styles ---*/
+.login-form{
+
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    color: #9CA3AF;
+    
+    
+
+}
+
+.login-form h1{
+    margin-bottom: 15px;
+    
+}
+
+.login-form img{
+    width: 100px;
+    margin-bottom: -10px;
+}
+
+  
+     /*--- input and alable styles ---*/
+.login-form .input-group{
+    text-align: left;
+    
+}
+
+
+     /*--- lable styles ---*/
+.login-form .input-group label{
+    display: block;
+    margin: 15px 0 5px 0 ;
+    text-align: left;
+    color: #9CA3AF;
+    
+}
+ 
+
+     /*--- input styles ---*/
+.login-form .input-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #2a2f3a; 
+    color: #E5E7EB;
+    border: 1px solid #3b4252;
+}
+ 
+
+     /*--- remember me and forgot password styles ---*/
+.opstions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+
+
+   /*--- forgot password styles ---*/
+.login-form .opstions a{
+    color: #3B82F6;
+    text-decoration: none;
+
+
+}
+
+   
+    /*--- login button styles ---*/
+.login-form .btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3B82F6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    transition: 0.3s;
+}
+
+
+.login-form input:focus {
+    border: 1px solid #3b82f6;
+    outline: none;
+    background-color: #1e2530;
+    box-shadow: 0 2px 8px #3b82f6;
+}
+
+.login-form .btn:hover{
+    background-color: #1b63d6;
+    box-shadow: 0 4px 5px #000000;
+    cursor: pointer;
+}
