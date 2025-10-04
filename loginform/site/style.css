@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   justify-content: center;
   background-color: #121212;
@@ -381,8 +385,9 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #2a2f3a8c;
-  color: #bbc4da;
+  background-color: #111827;
+  color: #e5e7eb;
+  margin-top: 15px;
 }
 
 footer .logo img{
@@ -396,10 +401,25 @@ footer .lilstes{
 }
 
 footer .lilstes ul li a{
-  color: #bbc4da;
+  color: #e5e7eb;
 }
 
 footer .lilstes ul li{
   padding: 5px;
   text-align: center;
+}
+
+.to-up a img{
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #454c58;
+  border-radius: 50%;
+}
+
+.to-up a img:hover{
+  scale:1.02 ;
+  transform: translateY(-5px);
+
 }
