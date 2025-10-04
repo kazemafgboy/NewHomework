@@ -325,3 +325,81 @@ body {
   background-color: #727f94;
   font-size: 16px;
 }
+
+.contact-img .img{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+ 
+}
+
+.contact-img .img img{
+  background-color: #727f94;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.contact-form{
+  width: 200px;
+  height: 220px;
+  background-color: #313c4b;
+  border-radius: 8px;
+
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact-form form h3{
+  color: #bbc4da;
+}
+
+.contact-form form input{
+  height: 30px;
+  width: 90%;
+  padding: 5px;
+  background-color: #3a455e;
+  border-radius: 5px;
+  color: #bbc4da;
+}
+
+.contact-form form input{
+  color: #bbc4da;
+}
+
+footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2a2f3a8c;
+  color: #bbc4da;
+}
+
+footer .logo img{
+  width: 50px;
+}
+
+footer .lilstes{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 150px;
+}
+
+footer .lilstes ul li a{
+  color: #bbc4da;
+}
+
+footer .lilstes ul li{
+  padding: 5px;
+  text-align: center;
+}
